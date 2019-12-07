@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3.6
 """
  * Copyright (c) 2019 Rodrigo Osorio <rodrigo@osorio.me>
  * All rights reserved.
@@ -73,7 +73,7 @@ class Navigation():
                         s = min(interval * i, l.s13)
                         loc = l.Position(s, Geodesic.STANDARD | Geodesic.LONG_UNROLL)
 
-                        print ("dist {:.0f} lat {:.5f} long {:.5f} cap {:.5f}".format(
+                        print ("dist {:.0f} meters  lat {:.5f} long {:.5f} heading {:.5f}".format(
                             loc['s12'], loc['lat2'], loc['lon2'], heading))
                         time.sleep(1)
                 prev = step;
