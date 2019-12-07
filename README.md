@@ -10,7 +10,7 @@ This script was writen for and tested with python3+ and requere the following de
 
 # Run
 
-  ./navigate.py -f <GeoJSON-file> -s <speed-in-kmph> [-l]
+  ./navigate.py -f GeoJSON-file -s speed-in-kmph [-l]
 
 * -f : the argument is a GPS track in GeoJson format
 * -s : the argument is the speed in Km/h (100 for 100 Km per hour)
